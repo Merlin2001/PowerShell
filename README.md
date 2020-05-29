@@ -7,3 +7,6 @@ An automated way to "mute" slacks tray notification icon by simply replacing the
 
 ## WindowsDefenderAutoConfig (for Delphi)
 Tries to speed up build processes by adding files and executables touched during the build to Windows Defender's exclusion list. Somehow, Windows Defender _still_ scans a lot of files, though :(
+
+## FileContentsToLowercase
+A colleague needed to convert all contents in a (huge) set of XML files to lowercase, so I quickly came up with this script to do the job. (Very basic and doesn't care at all about encoding, so use with caution (and backup your data first!) :-))
